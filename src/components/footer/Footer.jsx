@@ -10,7 +10,7 @@ export default function Footer() {
            <section className={styles["footer-section"]}>
             <div className={styles["logo-container"]}>
                 <div className={styles.logo}>
-                    <Link to={"/product"}>
+                    <Link to={"/"}>
                     <img src={Logo} alt="logo" />
                     </Link>
                 </div>
