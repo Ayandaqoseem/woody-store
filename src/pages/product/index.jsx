@@ -53,7 +53,7 @@ export function ProductList() {
         <div className={styles["product-wrapper"]}>
             <h2>Our Products</h2>
             <div className={styles["product-avail"]}>
-                <Link to={"/product"} className={location.pathname === "/product" ? `${styles.activeLink}` : ""}><h5>New Arrivals</h5></Link>
+                <Link to={"/"} className={location.pathname === "/" ? `${styles.activeLink}` : ""}><h5>New Arrivals</h5></Link>
                 <Link to={"/top-rated"} className={location.pathname === "/top-rated" ? `${styles.activeLink}` : ""}><h5>Top Rated</h5></Link>
                 <Link to={"/featured"} className={location.pathname === "/featured" ? `${styles.activeLink}` : ""}><h5>Featured</h5></Link>
             </div>
