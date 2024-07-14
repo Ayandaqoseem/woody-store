@@ -17,15 +17,15 @@ export default function ProductDetails() {
     (state) => state.product
   );
 
+ 
   
   const photoUrl =
-    product.photos.length > 0
-      ? `https://api.timbu.cloud/images/${product.photos[0].url}`
+    product?.photos.length > 0
+      ? `https://api.timbu.cloud/images/${product?.photos[0].url}`
       : "default-image-url.jpg";
 
-  console.log("SINGLE PRODUCT =>", product);
 
-  console.log("ID =>", id);
+  // console.log("ID =>", id);
 
   const dispatch = useDispatch();
 
@@ -57,11 +57,11 @@ export default function ProductDetails() {
         <div className={styles["product-details-container"]}>
           <div className={styles["product-details-wrapper"]}>
             <Card cardClass={styles.img}>
-              <img src={photoUrl} alt={product.name} />
+              <img src={photoUrl} alt={product?.name} />
             </Card>
             <div className={styles["product-details-info"]}>
               <h3>{product?.name}</h3>
-              <p>Price: {product.current_price}</p>
+              <p>Price: {product?.current_price}</p>
               <p>Quantity: {productDatails?.quantity}</p>
               <p>
                 {Array(5)
