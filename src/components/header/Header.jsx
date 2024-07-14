@@ -34,7 +34,7 @@ export default function Header() {
     <header className={styles.fixed}>
       <div className={styles.header}>
         <div className={styles.logo}>
-          <Link to={"/product"}>
+          <Link to={"/"}>
             <img src={Logo} alt="logo" />
           </Link>
         </div>

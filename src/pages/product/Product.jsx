@@ -55,10 +55,10 @@ export default function Product() {
 
   return (
     <div>
-      <HeroSection />
+      {/* <HeroSection />
       <PriorSection />
-      <ProductList />
-      <section>
+      <ProductList /> */}
+      <section className={styles["product-list-section"]}>
         <div className={styles["main-product-container"]}>
           <div className={styles["line-1"]}></div>
           <div className={styles["line-1"]}></div>

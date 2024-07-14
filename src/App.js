@@ -1,5 +1,5 @@
 import { Route, Routes, useLocation } from "react-router-dom";
-// import Home from "./pages/home/Home";
+import Home from "./pages/home/Home";
 import NewArrivals from "./pages/product/NewArrivals";
 import TopRated from "./pages/product/TopRatec";
 import Featured from "./pages/product/Featured";
@@ -23,7 +23,7 @@ function App() {
     <ToastContainer />
     <Header />
       <Routes location={location} key={location.pathname}>
-        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<Home />} />
         <Route path="/new-arrivals" element={<NewArrivals />} />
         <Route path="/top-rated" element={<TopRated />} />
         <Route path="/featured" element={<Featured />} />
