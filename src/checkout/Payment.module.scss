@@ -1,0 +1,89 @@
+.checkout-section {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+
+    .checkout-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2rem;
+        h3, .text-1 {
+            text-align: center;
+        }
+
+        form {
+            p {
+                display: block;
+                label {
+                    display: block;
+                }
+            }
+            .user-name-input {
+                display: flex !important;
+                gap: 4rem;
+            }
+
+            input {
+                padding: 0.5rem ;
+                width: 100%;
+            }
+            input:hover {
+                border: 2px solid var(--color-text-1);
+              }
+            input:focus {
+                border: 1px solid var(--color-text-1);
+              }
+            .text-area-input {
+                width: 100% !important;
+                height: 200px;
+                resize: none;
+            }
+            .checkbox-parag {
+                display: flex;
+                justify-content: flex-start;
+                width: 50%;
+                gap: 0.5rem;
+            }
+            .checkbox-con {
+                width: 20px;
+            }
+            .btn-proceed {
+                display: flex;
+                justify-content: center;
+                margin: 2rem 0;
+                span {
+                    margin-left: 8px;
+                }
+            }
+        }
+    }
+    .option-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        // background-color: greenyellow;
+        // width: 50%;
+        // margin-left: 8rem;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+.text-area-input:hover {
+    border: 2px solid var(--color-text-1);
+  }
+.text-area-input:focus {
+    border: 1px solid var(--color-text-1);
+  }
+
+@media (max-width: 450px) {
+    .checkout-form {
+        width: 90%;
+        margin-left: 1.1rem;
+    }
+}
