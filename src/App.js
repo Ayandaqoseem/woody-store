@@ -1,8 +1,8 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 import Home from "./pages/home/Home";
-import NewArrivals from "./pages/product/NewArrivals";
-import TopRated from "./pages/product/TopRatec";
-import Featured from "./pages/product/Featured";
+import NewArrivals from "./components/NewArrivals";
+import TopRated from "./components/TopRatec";
+import Featured from "./components/Featured";
 import Shop from "./pages/shop/Shop";
 import Contact from "./pages/contact/Contact";
 import Blog from "./pages/blog/Blog";

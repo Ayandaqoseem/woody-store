@@ -1,6 +1,6 @@
 import styles from "./Home.module.scss";
 
-import HeroSection, { PriorSection, ProductList } from "../product/index";
+import HeroSection, { PriorSection, ProductList } from "../../components/index";
 import { Card } from "../../components/card/Card";
 import { FaStar } from "react-icons/fa";
 // import { ProductData } from "../../Data";

@@ -1,5 +1,5 @@
-import styles from "../product/NewArrival.module.scss";
-import HeroSection, { PriorSection, ProductList } from "../product/index";
+import styles from "../../components/NewArrival.module.scss";
+import HeroSection, { PriorSection, ProductList } from "../../components/index";
 import { Card } from "../../components/card/Card";
 import { FaStar } from "react-icons/fa";
 import Footer from "../../components/footer/Footer";

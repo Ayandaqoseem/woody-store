@@ -1,8 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
-import { Card } from "../../components/card/Card";
+import { Card } from "./card/Card";
 // import Header from "../../components/header/Header";
-import { Services } from "../../Data";
-import styles from "./Product.module.scss";
+import { Services } from "../Data";
+import styles from "./indexP.module.scss";
 
 export default function HeroSection() {
     return(

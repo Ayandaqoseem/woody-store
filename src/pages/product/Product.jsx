@@ -1,6 +1,6 @@
-import styles from "./NewArrival.module.scss";
+import styles from "./Product.module.scss";
 
-import HeroSection, { PriorSection, ProductList } from "./index";
+import HeroSection, { PriorSection, ProductList } from "../../components/index";
 import { Card } from "../../components/card/Card";
 import { FaStar } from "react-icons/fa";
 // import { ProductData } from "../../Data";
